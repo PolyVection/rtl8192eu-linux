@@ -79,7 +79,7 @@ CONFIG_RTW_SDIO_PM_KEEP_POWER = y
 ###################### MP HW TX MODE FOR VHT #######################
 CONFIG_MP_VHT_HW_TX_MODE = n
 ###################### Platform Related #######################
-
+EXTRA_CFLAGS += -DCONFIG_LITTLE_ENDIAN
 ###############################################################
 
 CONFIG_DRVEXT_MODULE = n
